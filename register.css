@@ -1,4 +1,4 @@
-.login-container {
+.register {
     width: 300px;
     margin: 100px auto;
     padding: 20px 40px;
@@ -7,21 +7,7 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     color: #ffffff;
 }
-h1{
-    text-align:center ;
-}
-.logo {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.logo img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 20%;
-    display: block;
-    margin: 0 auto;
-}
+
 input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -32,7 +18,43 @@ input[type="text"] {
     box-sizing: border-box;
 }
 
+input[type="username"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="alamat"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -66,4 +88,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
