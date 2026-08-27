@@ -10,43 +10,43 @@
     
     <div class="register">
         <h2>Registrasi</h2>
-        <from action="#">
+        <form action="#">
             <label for type="text">Nama Lengkap:</label>
-            <input type="text" nama="nama_lengkap" id="nama_lengkap"
-            placeholder="Masukan Nama Lengkap"  required>
+            <input type="text" name="nama_lengkap" id="nama_lengkap"
+            placeholder="Masukan Nama Lengkap" required>
 
             <label for ="username">Username:</label>
-            <input type="text" nama="username" id="username"
+            <input type="text" name="username" id="username"
             placeholder="Masukan Username"  required>
 
             <label for ="email">Email</label>
-            <input type="email" nama="email" id="email"
+            <input type="email" name="email" id="email"
             placeholder="Masukan Email"  required>
             
             <label for ="password">Password</label>
-            <input type="password" nama="password" id="password"
+            <input type="password" name="password" id="password"
             placeholder="Masukan password"  required>
 
-            <label for ="konfrim_password">konfrimasi Password</label>
-            <input type="password" nama="password" id="password"
+            <label for ="konfirmasi-password">konfrimasi Password</label>
+            <input type="password" name="konfirmasi_password" id="konfirmasi-password"
             placeholder="Masukan Kembali Password">
 
             <label for ="Tanggal_Lahir">Tanggal Lahir</label>
-            <input type="date" nama="tanggal_lahir" id="Tanggal_Lahir">
+            <input type="date" name="tanggal_lahir" id="Tanggal_Lahir">
             
             <!-- Opsi jenis Kelamin -->
             <label for ="jenis Kelamin">Jenis Kelamin</label>
-            <input type="radio" nama="jenis_Kelamin" id="laki-laki"
+            <input type="radio" name="jenis_Kelamin" id="laki-laki"
             value="Laki-laki">
             <label for="laki-laki">Laki-laki</label>
 
-            <input type="radio" nama="jenis_Kelamin" id="perempuan"
+            <input type="radio" name="jenis_Kelamin" id="perempuan"
             value="Perempuan">
             <label for="perempuan">Perempuan</label>
             
             <!-- Drop Down pilihan kelas --> 
             <label for="kelas">Kelas</label>
-            <select new="kelas" id="kelas">
+            <select new="kelas" id="kelas" required>
                 <option value="" disabled selected>Pilih Kelas</option>
                 <option value="XI PPLG 3">XI PPLG 3</option>
                 <option value="XI PPLG 4">XI PPLG 4</option>
@@ -55,17 +55,18 @@
             
             <br><br>
             <label for ="alamat">Alamat</label>
-            <input type="text" nama="alamat" id="Alamat"
+            <input type="text" name="alamat" id="Alamat"
             placeholder="Masukan Alamat">
             
             <label for="setuju">Saya menyetujui syarat dan ketentuan</label>
             <input type="checkbox" id="setuju" name="syarat" value="ya">
 
-            <button type="submit">Daftar</button>
+            <button type="submit" onclick="cekRegister()">Submit</button>
             <p>Sudah Memiliki Akun
                 <a href="index.html">Login Disini</a>
             </p>
-        </from>
-    </div>   
+        </form>
+    </div>  
+ <script src="script.js"></script> 
 </body>
 </html>
